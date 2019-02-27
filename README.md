@@ -28,6 +28,7 @@ Options:
 
 ```bash
 $ git clone git@github.com:tsauvajon/node-url-shortener.git
+$ cd node-url-shortener
 $ npm install --production
 $ NODE_ENV=production node app --url "http://example.com"
 ```
