@@ -1,21 +1,8 @@
 # Node Url Shortener
 
-> A modern, minimalist, and lightweight URL shortener using [Node.js](http://nodejs.org) and [Redis](http://redis.io).
-
-[![Build Status](https://travis-ci.org/dotzero/node-url-shortener.svg?branch=master)](https://travis-ci.org/dotzero/node-url-shortener)
-[![GitHub tag](https://img.shields.io/github/tag/dotzero/node-url-shortener.svg)](https://github.com/dotzero/node-url-shortener)
-[![Dependency Status](https://david-dm.org/dotzero/node-url-shortener.svg)](https://david-dm.org/dotzero/node-url-shortener)
-
-## Using
-
-* [Express 4](http://expressjs.com/)
-* [Redis](http://redis.io)
-
 ## Quick Start
 
 ```bash
-$ git clone git@github.com:dotzero/node-url-shortener.git
-$ cd nus
 $ npm install
 $ node app
 ```
@@ -40,8 +27,7 @@ Options:
 ## Installation on production
 
 ```bash
-$ git clone git@github.com:dotzero/node-url-shortener.git nus
-$ cd nus
+$ git clone git@github.com:tsauvajon/node-url-shortener.git
 $ npm install --production
 $ NODE_ENV=production node app --url "http://example.com"
 ```

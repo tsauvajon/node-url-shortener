@@ -6,7 +6,7 @@
     this._e_date = '#end_date';
     this._link = '#link';
     this._errormsg_ = 'An error occurred shortening that link, url format invalid. <br /> ' +
-      'Must be in format http(s)://weburl.com or http(s)://www.weburl.com';
+      'Must be in format http(s)://url.com';
   };
 
   _nus.prototype.init = function () {
